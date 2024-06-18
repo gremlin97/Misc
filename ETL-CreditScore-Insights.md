@@ -1,6 +1,6 @@
 ## ETL - Credit Score Data
 
--Features:
+- Features:
     Age
     Number of Past Due 1-2 months
     Number of Past Due 1-2 months but not worse
@@ -12,7 +12,7 @@
     Revolving Utilization of Unsecured Lines:
     Total balance (due) on credit cards + other lines / (Sum(credit Limits))
 
--Target:
+- Target:
     If user is delinquent - Defaults after 90 days.
 
 - Extraction:
