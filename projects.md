@@ -1,4 +1,3 @@
-```markdown
 # Reddit Pushshift Database Analysis
 
 ## Summary
@@ -146,4 +145,3 @@
 
 **R:**
 - Achieved high F1 scores for the classification model. The new VIT models are lightweight with fast inference, reduced model size by 40%, and reduced false positives by 15%.
-```
