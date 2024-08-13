@@ -39,7 +39,7 @@
     
 - **Insights from Athena and Quicksight**:
 
-    Mean debt ratio, standard deviation, and percentile scores.
+    Mean debt ratio (debt ratio = (Monthly Debt Payment)/(Gross Monthly Income)), standard deviation, and percentile scores.
 
     Proportion of people who defaulted.
 
