@@ -1,6 +1,6 @@
 ## ETL - Credit Score Data
 
-- Features:
+- **Features**:
     Age
     Number of Past Due 1-2 months
     Number of Past Due 1-2 months but not worse
@@ -12,22 +12,22 @@
     Revolving Utilization of Unsecured Lines:
     Total balance (due) on credit cards + other lines / (Sum(credit Limits))
 
-- Target:
+- **Target**:
     If user is delinquent - Defaults after 90 days.
 
-- Extraction:
+- **Extraction**:
 
     Load data from CSV in the data lake S3 bucket using AWS Glue Crawler to infer the schema of the database using a crawling process and extract the data to a Glue database in S3.
 
-- Transformation:
+- **Transformation**:
 
     Use PySpark Glue ETL jobs to remove duplicates, drop null values, and remove outliers. Specifically, remove records of individuals below 18 years old and those with revolving ratios > 1. Standardize the dataset with mean 0 and standard deviation 10.
 
-- Load:
+- **Load**:
 
     Save the dataset to the target DynamoDB (warehouse) and S3 bucket (data lake).
     
-- Insights from Athena and Quicksight:
+- **Insights from Athena and Quicksight**:
 
     Mean debt ratio, standard deviation, and percentile scores.
 
