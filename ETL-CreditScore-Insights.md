@@ -2,15 +2,25 @@
 
 - **Features**:
     Age
+  
     Number of Past Due 1-2 months
+  
     Number of Past Due 1-2 months but not worse
+  
     Number of Past Due 3 months
+  
     Income
+  
     Number of mortgage and real estate loan lines (Home loans)
+  
     Number of open credit (credit cards) and loan (home/car) lines
+  
     Number of Dependents
+  
     Revolving Utilization of Unsecured Lines:
+  
     Total balance (due) on credit cards + other lines / (Sum(credit Limits))
+  
 
 - **Target**:
     If user is delinquent - Defaults after 90 days.
